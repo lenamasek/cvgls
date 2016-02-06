@@ -1,0 +1,86 @@
+/* HEADER
+-------------------------------------------------------------------------------*/
+
+/*
+	.header-details {
+	margin:20px 0;
+}*/
+
+.header-details div {
+	background-repeat: no-repeat;
+	background-position: left center;
+	padding-left: 50px;
+}
+#header-date {
+	background-image: url('/images/icon-date.png');
+	background-repeat: no-repeat;
+	background-position: left center;
+}
+#header-location {
+	background-image: url('/images/icon-location.png');
+	background-repeat: no-repeat;
+	background-position: left center;
+}
+.header .button {
+	/*margin-left: 1em;*/
+}
+
+
+
+@media (max-width: 991px) {
+	
+	.header-details {
+		font-size:.9em;
+		line-height: 1.6em;
+	}
+	
+		.header-details #button {
+		
+		padding-left: 20px;
+	}
+	
+}
+
+
+
+
+@media screen and (max-width: 767px) {
+
+	.date-time {
+		padding: 5px 30px 15px 30px;
+	}
+	
+	.header-date {
+		margin-bottom: 1em;
+	}
+	
+	.header-details {
+		font-size:1.3em;
+		line-height: 1.4em;
+	}
+	
+	#header-location {
+		margin:15px 0px;
+	}
+	
+	.header-details .button {
+		width:100%;
+		margin:10px 0px;
+	}
+	
+	.header-details #button {
+		
+		padding-left: 0px;
+	}
+	
+	.header-details {
+		font-size:normal;
+	}
+	
+
+
+}
+
+
+	
+	
